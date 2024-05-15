@@ -1,0 +1,107 @@
+header {
+    margin-top:37px;
+}
+ul {
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+}
+
+ul li{
+list-style: none;
+display:inline-block;
+}
+
+ul li a{
+    font-weight:300;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(226, 217, 198);
+    padding: 0 10px;
+}
+ul li a:hover{
+    color:rgb(148, 135, 109);
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height:fit-content;
+    background-color: rgb(5, 4, 6);
+}
+.wrapper{
+    margin: 0 100px;
+    width: 0 70%;
+}
+button {
+    text-decoration:none;
+    font-weight: bold;
+    border: none;
+    list-style: none;
+    background: none;
+    position:absolute;
+    vertical-align: middle;
+    display:inline-block;
+    margin:15px 12px;
+    padding:0px 10px;
+    font-size:14px;
+    
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+button a{
+    text-decoration:none;
+    color:rgb(149, 133, 81);
+}
+
+button :hover{
+    color:rgb(94, 73, 41);
+}
+
+
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+    margin:0;
+    position: fixed;
+    height:100vh;
+    width:100vw;
+}
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+    margin:0;
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 37px;
+    background-color: rgb(5, 4, 6);
+   
+   
+}
+
+.foot {
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    color: rgb(149, 133, 81);
+    justify-content:center;
+    align-items:center;
+  
+}
