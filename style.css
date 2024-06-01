@@ -13,6 +13,7 @@ display:inline-block;
 }
 
 ul li a{
+    
     font-weight:300;
     display: block;
     text-decoration: none;
@@ -79,6 +80,7 @@ body{
     -ms-overflow-style: none;
     scrollbar-width:none;
     margin:0;
+   
 }
 
 body::-webkit-scrollbar {
@@ -105,3 +107,4 @@ footer {
     align-items:center;
   
 }
+
